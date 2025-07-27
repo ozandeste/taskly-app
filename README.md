@@ -1,12 +1,35 @@
-# React + Vite
+# Taskly - Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern teknolojiler kullanılarak geliştirilmiş, sade, şık ve profesyonel bir **ToDo Uygulaması**.
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
+- **CRUD İşlemleri:** Görev ekleme, düzenleme, silme ve tamamlandı olarak işaretleme.
+- **Arama ve Filtreleme:** Aktif, tamamlanmış veya tüm görevleri filtreleme + arama.
+- **Dark/Light Tema Toggle:** Kullanıcı tercihini localStorage üzerinde saklayan tema desteği.
+- **LocalStorage Persist:** Sayfa yenilense bile görevler kaybolmaz.
+- **Radix UI Entegrasyonu:** Erişilebilir ve modern kullanıcı bileşenleri (Dialog, Checkbox).
+- **Responsive Tasarım:** Mobil ve masaüstü uyumlu.
+- **Hafif Animasyonlar:** TailwindCSS transition özellikleriyle yumuşak geçişler.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Kullanılan Teknolojiler
+- [React (Vite)](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Context API](https://reactjs.org/docs/context.html)
+- [Radix UI](https://www.radix-ui.com/)
+- [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 
-## Expanding the ESLint configuration
+## 📦 Kurulum ve Çalıştırma
+Projeyi local ortamda çalıştırmak için:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Projeyi klonla
+git clone <repo-url>
+
+# Proje dizinine gir
+cd taskly-app
+
+# Bağımlılıkları yükle
+npm install
+
+# Geliştirme modunda çalıştır
+npm run dev
