@@ -16,7 +16,7 @@ Canlı Link: [Live Review](https://taskly-todoapp.netlify.app/)
 ## 🛠 Kullanılan Teknolojiler
 - [React (Vite)](https://vitejs.dev/)
 - [TailwindCSS](https://tailwindcss.com/)
-- [Context API](https://reactjs.org/docs/context.html)
+- [Context API](https://react.dev/reference/react/createContext)
 - [Radix UI](https://www.radix-ui.com/)
 - [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 
