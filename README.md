@@ -2,6 +2,8 @@
 
 Modern teknolojiler kullanılarak geliştirilmiş, sade, şık ve profesyonel bir **ToDo Uygulaması**.
 
+Canlı Link: [Live Review](https://taskly-todoapp.netlify.app/)
+
 ## 🚀 Özellikler
 - **CRUD İşlemleri:** Görev ekleme, düzenleme, silme ve tamamlandı olarak işaretleme.
 - **Arama ve Filtreleme:** Aktif, tamamlanmış veya tüm görevleri filtreleme + arama.
